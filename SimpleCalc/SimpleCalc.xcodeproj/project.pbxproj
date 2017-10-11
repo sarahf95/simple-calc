@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A14CAB211F8D70C600EBCF7F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CAB201F8D70C600EBCF7F /* main.swift */; };
+		A1F24E491F8DF49900567E57 /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F24E481F8DF49900567E57 /* ConsoleIO.swift */; };
+		A1F24E4B1F8DF67900567E57 /* simplecalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F24E4A1F8DF67900567E57 /* simplecalc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		A14CAB1D1F8D70C600EBCF7F /* SimpleCalc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleCalc; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14CAB201F8D70C600EBCF7F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A1F24E481F8DF49900567E57 /* ConsoleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
+		A1F24E4A1F8DF67900567E57 /* simplecalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simplecalc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 		A14CAB141F8D70C500EBCF7F = {
 			isa = PBXGroup;
 			children = (
+				A1F24E481F8DF49900567E57 /* ConsoleIO.swift */,
 				A14CAB1F1F8D70C600EBCF7F /* SimpleCalc */,
 				A14CAB1E1F8D70C600EBCF7F /* Products */,
 			);
@@ -58,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				A14CAB201F8D70C600EBCF7F /* main.swift */,
+				A1F24E4A1F8DF67900567E57 /* simplecalc.swift */,
 			);
 			path = SimpleCalc;
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A14CAB211F8D70C600EBCF7F /* main.swift in Sources */,
+				A1F24E4B1F8DF67900567E57 /* simplecalc.swift in Sources */,
+				A1F24E491F8DF49900567E57 /* ConsoleIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
